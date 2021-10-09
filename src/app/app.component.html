@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      Conversor de Binário para Decimal
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="input-numero-binario">Número Binário</label>
+        <input type="number" id="input-numero-binario" class="form-control" [(ngModel)]="binario" name="binario">
+      </div>
+      <div class="form-group">
+        <label for="input-numero-decimal">Número Decimal</label>
+        <input type="number" id="input-numero-decimal" class="form-control" [(ngModel)]="decimal" readonly
+          name="decimal">
+      </div>
+
+      <button type="button" class="btn btn-primary" (click)="calcularDecimal()">Calcular</button>
+    </form>
+  </div>
+</div>

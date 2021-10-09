@@ -1,0 +1,32 @@
+.container {
+  width: 980px;
+}
+
+.card-header {
+  width: 100%;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 20px auto;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  width: 200px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 0 auto;
+}
